@@ -85,3 +85,18 @@ pnpm dev
 ```
 
 Please install [Agent Chat UI](https://github.com/langchain-ai/agent-chat-ui) before use. 
+
+Create .env file for APIs before use.
+```
+# OpenAI API Configuration 
+OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxx
+
+# DeepSeek API Configuration
+DEEPSEEK_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
+
+# LangGraph API Configuration
+LANGGRAPH_API_URL=http://localhost:2024
+
+# LangSmith Configuration
+LANGSMITH_API_KEY=lsv2_xxxxxxxxxxxxxxxxxxxxxxxx
+```
