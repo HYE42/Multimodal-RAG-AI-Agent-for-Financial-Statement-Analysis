@@ -21,13 +21,9 @@ Uses [MinerU](https://github.com/opendatalab/MinerU) to convert PDFs into Markdo
    
 The add_mineru_document.py script segments Markdown files into semantically coherent chunks.
 
-Each chunk is stored in a FAISS vector index (index.faiss) with associated metadata (index.pkl).
+Each chunk is stored in a FAISS vector index (index.faiss) with associated metadata.
 
-Metadata includes:
-  - Section hierarchy (e.g., # Heading, ## Subheading)
-  - Document ID and position for precise retrieval.
-
-4. RAG Agent Construction (rag_agent.py)
+4. RAG Agent Construction 
    
 Integrates LLMs with FAISS retriever for grounded financial Q&A.
 
