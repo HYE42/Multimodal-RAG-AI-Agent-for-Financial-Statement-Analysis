@@ -83,3 +83,5 @@ Run Frontend (Agent Chat UI)
 cd Multimode-RAG-Agent/agent-chat-ui
 pnpm dev
 ```
+
+Please install [Agent Chat UI](https://github.com/langchain-ai/agent-chat-ui) before use. 
